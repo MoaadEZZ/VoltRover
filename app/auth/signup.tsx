@@ -16,7 +16,7 @@ export default function SignupScreen() {
       setError('Please fill in all fields');
       return;
     }
-
+ 
     try {
       setLoading(true);
       setError('');
